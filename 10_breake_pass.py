@@ -22,6 +22,11 @@ for i in range(1, 10): # 1~9까지 출력해줘.
         continue #9(조건문)을 제외해줘
     print(i) #출력해
 
+    #for i in range(1,10): # 1~9까지 출력해줘.
+#    if i % 3 ==0 : 나머지 몫이 0이 되는 것들
+#        continue 제외해줘
+#    print(i)
+
 
 
 
