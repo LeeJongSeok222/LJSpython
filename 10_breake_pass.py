@@ -1,9 +1,11 @@
 cup = 0
-while True:
+running = True
+
+while running:
     cup += 1
     print(cup)
     if cup == 10:
-        #running = false
+        #running = False
         break
 
 print('while 문 종료')
