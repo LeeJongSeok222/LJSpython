@@ -25,5 +25,5 @@ print(arr)
 #리스트끼리 연산
 a = [1,2,3,4,5]
 b = ['a','b','c','d']
-print(a+b)
-print(a*3)
+print(a+b) #리스트 합치기
+print(a*3) # list 반복
