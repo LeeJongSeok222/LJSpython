@@ -27,6 +27,9 @@ print(a)
 # 사전의 특정요소를 꺼내보자(사용법은 list와 비슷하다.)
 print(dic2['name'])
 print(dic2['friends'])
+print(dic2.get('phone'))
+#특정키가 없는 경우 None 이 아닌 대체내용으로 반환할수 있음
+print(dic2.get('nick','해당내용이 없음'))
 
 
 
