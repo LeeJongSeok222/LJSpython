@@ -24,6 +24,10 @@ print(a)
 del a['second']
 print(a)
 
+# 사전의 특정요소를 꺼내보자(사용법은 list와 비슷하다.)
+print(dic2['name'])
+print(dic2['friends'])
+
 
 
 
