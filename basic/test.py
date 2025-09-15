@@ -5,3 +5,6 @@ while True: #리스트에 담긴 숫자3을 찾을떄 까지 무한으로 돌리
      print(f'3의 값은 :{idx}번에 있다.') #idx 몇번쨰에 있다 출력해줘.
      idx += 1 #찾은 인덱스으로 부터 1을 더해 3을 더이상 찾을수 없을때 까지 무한으로 돌리다 보면 에러나서 종료.
 
+for item in members.items():
+    if item[1] >= 90:
+        print(f'이름 : {item[0]}')
